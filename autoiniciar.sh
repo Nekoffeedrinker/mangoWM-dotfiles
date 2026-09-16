@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-flameshot &
+# flameshot &
 sleep 2 && easyeffects --service-mode &
 emacs --daemon &
 com.rtosta.zapzap &
