@@ -2,8 +2,8 @@
 
 # flameshot &
 sleep 2 && easyeffects --service-mode &
-sleep 3 && com.bitwarden.desktop &
+sleep 3 && flatpak run com.bitwarden.desktop &
 emacs --daemon &
-com.super_productivity.SuperProductivity &
+flatpak run com.super_productivity.SuperProductivity &
 ~/AppImages/melia* &
-com.rtosta.zapzap &
+flatpak run com.rtosta.zapzap &
