@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# flameshot &
 sleep 2 && easyeffects --service-mode &
 sleep 3 && flatpak run com.bitwarden.desktop &
 emacs --daemon &
